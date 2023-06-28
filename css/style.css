@@ -1,0 +1,50 @@
+body{margin:0px;padding:0px;background-color:black;}
+*{margin:0px; padding:0px;}
+.container{background:#D3BCC0;width:100%;height:auto;}
+.header{width:100%;height:23%;background:#e9e5e5; }
+.header-title{color:#23111c;font-size:60px;text-align: center;font-family: 'Satisfy', cursive;padding-top:28px;}
+.nav{width:100%;height:70px;}
+.nav ul{list-style:none; position:absolute; }
+.nav ul li{float:left; position:relative;width:150px;}
+.nav ul li a{text-align:center;display:block;width:150px;color:#4d243d;text-decoration:none;font-size:25px;padding-top:21px;height:45px; }
+.nav ul li ul li{background:#D3BCC0;display: block;}
+.nav ul li ul li a{color:black;text-align:center;height:40px;padding-top: 5px;}
+.nav ul li ul{display:none;}
+.nav ul li a:hover{color:black;border-bottom:4px solid black;}
+.nav ul li ul li a:hover{border: none;background-color: #e9e5e5;color:black;}
+.nav ul li:hover ul{display:block;} 
+.log{padding-left: 599px;}
+.banner{height: 523px;vertical-align: middle;background-image: url(../images/indexbanner.jpg);background-repeat: no-repeat;background-position: 50.00% 61.90%;background-size: 50%;background-color: transparent;background-size: cover;}
+.contain{max-width:960px;box-sizing:border-box;padding-top: 160px;}
+.paragraph{text-align: center;color:#fff;font-size: 16px;letter-spacing: 5px;font-weight:700;margin:0 auto 1.7em;}
+.content-title{text-align: center;color: #fff;font-size: 56px;letter-spacing: 5px;}
+marquee{background-color:rosybrown;font-size: 25px;font-weight: bold;}
+.blink {
+  animation: blinker 4s linear infinite;
+  padding-top: 20px;
+}
+@keyframes blinker{50%{opacity:30%;}}
+marquee a{color:black;}
+.content{width:100%;height:auto;padding-bottom: 70px;padding-top: 30px;margin-top:80px;
+    background-color:rosybrown;}
+.content h2{text-align: center;font-family:'Satisfy', cursive; font-size: 40px; text-decoration: underline;letter-spacing: 3px; }
+.content #c{text-align: center;font-size: 25px;font-weight: bold;}
+.content p{font-family: 'Satisfy', cursive; font-size: 25px;text-align: center;padding-left: 10px;padding-right: 10px;}
+.pr{width:100%;height:100%;margin-top: 25px;}
+h1{text-align: center;font-family: 'Satisfy', cursive;padding-bottom: 40px;font-size: 40px;letter-spacing: 3px;}
+h4{text-align: center;color:black;padding-top: 25px; padding-bottom: 35px;padding-right: 37px;}
+a{text-decoration: none;}
+.im1, .im2{float:left;width:250px;margin-left: 295px;}
+.pr img{height: 200px; width:200px;border-radius: 50%;}
+.pr img {
+    transition: transform .2s;
+  }
+  
+  .pr img:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+    
+.footer{width:100%;height:10%;background:#4d243d;}
+address{color:white;font-size: 18px;padding-top:24px;padding-left:5px;}
