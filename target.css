@@ -1,0 +1,74 @@
+body{margin:0px;padding:0px;max-width: 100%; overflow-x: hidden;}
+*{margin: 0px; padding: 0px;}
+.nav{width:100%;height:70px;background-color:  #D3BCC0;}
+.nav ul{list-style:none; position: absolute; }
+.nav ul li{float:left; position:relative;width:150px;}
+.nav ul li a{text-align:center;display:block;width:150px;color:#4d243d;text-decoration:none;font-size:25px;padding-top:18px;height:70px; }
+.nav ul li ul li{display: block;background-color: #d3bcc0;}
+.nav ul li ul li a{color:black;text-align:center;height:40px;padding-top: 5px;}
+.nav ul li ul{display:none;}
+.nav ul li a:hover{color: black;border-bottom:4px solid black}
+.nav ul li ul li a:hover{border: none;background-color: #e9e5e5;color:black;}
+.nav ul li:hover ul{display:block;} 
+.log{padding-left: 350px;}
+.summer{background-color:#ffffb5;height:auto;width:100%;padding-top:50px;padding-bottom: 50px;}
+.winter{background-color:#97c1a9;height:auto;width:100%;padding-top:50px;padding-bottom: 50px;}
+.sports{background-color:lightblue;height:auto;width:100%;padding-top:50px;padding-bottom: 50px;}
+.summer1{background-color:#f79c65;height:auto;width:100%;padding-top:50px;padding-bottom: 50px;}
+.winter1{background-color:#92b5d8;height:auto;width:100%;padding-top:50px;padding-bottom: 50px;}
+.sports1{background-color:#ddfff7;height:auto;width:100%;padding-top:50px;padding-bottom: 50px;}
+.women{background-color:#fec397;height:auto;width:100%;padding-top:50px;padding-bottom: 50px;}
+.men{background-color:#d5c9dd;height:auto;width:100%;padding-top:50px;padding-bottom: 50px;}
+.summer-acc{background-color:#fec397;height:auto;width:100%;padding-top:50px;padding-bottom: 50px;}
+* {
+    box-sizing: border-box;
+  }
+  .column-first p{font-size: 60px;color:black;text-align: left;font-family: 'Satisfy', cursive;letter-spacing: 4px;padding-left: 70px;}
+ .summer .centered {position: absolute;top:245px;left:80%;}
+ .summer .centered1{position:absolute;top:585px;right:33%}
+ .summer .centered2 {position: absolute;top:870px;left:12%;text-align: right;}
+ .summer .centered3{position:absolute;top:1210px;left:35%;}
+ .winter .centered {position: absolute;top:1640px;left:80%;}
+ .winter .centered1{position:absolute;top:1915px;right:34%;text-align: right;}
+ .winter .centered2 {position: absolute;top:2270px;left:33%;}
+ .winter .centered3{position:absolute;top:2575px;left:12%;}
+ .sports .centered4 {position: absolute;top:3010px;left:81%;}
+ .sports .centered5{position:absolute;top:3317px;right:34%;}
+ .summer1 .centered {position: absolute;top:275px;left:80%;}
+ .summer1 .centered1{position:absolute;top:585px;right:34%}
+.summer1 .centered2 {position: absolute;top:900px;left:13%;}
+.summer1 .centered3{position:absolute;top:1210px;left:36%;}
+ .winter1 .centered {position: absolute;top:1645px;left:79%;}
+ .winter1 .centered1{position:absolute;top:1915px;right:34%;text-align: right;}
+ .winter1 .centered2 {position: absolute;top:2270px;left:33%;}
+ .winter1 .centered3{position:absolute;top:2575px;left:10%;}
+ .sports1 .centered4 {position: absolute;top:3010px;left:78%;}
+ .sports1 .centered5{position:absolute;top:3320px;right:35%;}
+ .women .centered {position: absolute;top:280px;left:80%;}
+ .women .centered1{position:absolute;top:585px;right:36%}
+ .men .centered {position: absolute;top:1020px;left:80%;}
+ .men .centered1{position:absolute;top:1325px;right:33.5%;text-align: right;}
+ .summer-acc .centered {position: absolute;top:270px;left:80%;}
+ .summer-acc .centered1{position:absolute;top:585px;right:35%}
+ .summer-acc .centered2 {position: absolute;top:895px;left:12%;text-align: right;}
+ .summer-acc .centered3{position:absolute;top:1210px;left:34%;}
+  a{text-decoration: none;color:black;font-size:30px;}
+  a:hover{color:#D3BCC0;}
+.column,.column-first{
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  .column img,.column-first img {position: relative;
+    margin-top: 12px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #img-yes{box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); }
+  .column-first #img-yes{margin-left:53px;}
+  .column-first #img-no{padding-left:55px;}
+  .footer{width:100%;height:10%;background:#4d243d;}
+address{color:white;font-size: 18px;padding-top:24px;padding-left:5px;}

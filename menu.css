@@ -1,0 +1,21 @@
+body{margin:0px;padding:0px;}
+*{margin:0px; padding:0px;}
+body{background-color:rgb(214, 209, 209);}
+.header-title{color:#23111c;font-family: 'Satisfy', cursive;padding-top:4px;font-size: 45px;text-align: center;background-color: #D3BCC0;height:66px;}
+.summer,.winter,.sports,.women,.men{
+    width: 250px;
+    height: 33px;
+    transition: width 2s, height 2s;
+    overflow:hidden;
+    transition-timing-function: ease;
+  }
+  
+  .summer:hover,.winter:hover,.sports:hover,.women:hover,.men:hover {
+    width: 250px;
+    height: 200px;
+  }
+  h1{font-family: 'Satisfy', cursive;letter-spacing: 3px;}
+  .cat{margin-left: 15px;}
+  ul li{font-size: 30px;}
+  ul li a{text-decoration: none;color: #4d243d;font-size:23px;}
+  ul li a:hover{text-decoration: underline;color:black}

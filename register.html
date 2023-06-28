@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Silverline Registration</title>
+        <link rel="stylesheet" type="text/css" href="css/register.css">
+        <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+        <link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+    </head>
+    <body>
+        <div class="container">
+           <div class="block1" align="center"><span class="s"> S </span></div>
+           <div class="block2" align="center">
+               <h2>Registration Form</h2><br>
+               <form action="log.html">
+               <table>
+                   <thead>
+                       <tr>
+                           <td><input type="fname" name="fname" id="fname" placeholder="First Name" required></td>
+                           <td><input type="lname" name="lname" id="lname" placeholder="Last Name" required></td>
+                       </tr>
+                   </thead>
+                   <tbody>
+                   <tr><td colspan="2"><input type="username" name="username" id="username" placeholder="Username" required></td></td></tr>
+                   <tr><td colspan="2"><input type="email" name="email" id="email" placeholder="Email Address" required></td></td></tr>
+                   <tr><td colspan="2" width="200px"><select name="Gender" id="" required>
+                                                    <option value="gen" disabled selected>Gender</option>
+                                                    <option value="male">Male</option>
+                                                    <option value="femal">Female</option>
+                                                    <option value="other">Other</option>
+                                                    </select></td></tr>
+                   <tr><td colspan="2"><input type="password" name="password" id="password" placeholder="Password" maxlength="8" required></td></td></tr>
+                   <tr><td colspan="2"><input type="password" name="cpsw" id="cpsw" placeholder="Confirm Password" maxlength="8" required></td></td></tr>
+                   </tbody>
+               </table>
+               <br>
+               <input type="submit" value="REGISTER &#8594">
+               </form>
+           </div>
+        </div>
+    </body>
+</html>
